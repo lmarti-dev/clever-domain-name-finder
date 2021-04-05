@@ -1,0 +1,4 @@
+build_to_exe
+backup
+__pycache__
+launch.bat
