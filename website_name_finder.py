@@ -46,7 +46,7 @@ class DomainFinder():
 
 		# ~ show the results in a list
 		
-		self.lb = tk.Listbox(self.frame, listvariable=tk.StringVar(),width=50,height=20,font=font,bd=10,)
+		self.lb = tk.Listbox(self.frame, listvariable=tk.StringVar(),width=50,height=20,font=font,bd=10,selectmode=tk.EXTENDED)
 		self.lb.configure(yscrollcommand=self.scrollbar.set)
 		self.lb.bind('<Double-Button-1>', self.visit_website)
 		
