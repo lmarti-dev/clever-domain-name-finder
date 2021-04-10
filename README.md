@@ -1,5 +1,5 @@
 # Clever domain name finder
-A little tool to look up what words end in specific tlds. 
+A little tool with a GUI in `tkinter` to look up what words end in specific tlds. 
 
 Depends on `tkentrycomplete.py` created by Mitja Martini, updated by Russell Adams.
 
